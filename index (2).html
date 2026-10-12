@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeFlow — цветовые палитры</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site" id="site">
+    <header class="container header">
+      <a class="brand" href="#home"><span class="logo">&lt;/&gt;</span><span>Code<span class="accent-text">Flow</span></span></a>
+      <nav>
+        <a href="#features">Возможности</a>
+        <a href="#palettes">Цветовые палитры</a>
+        <a class="nav-button" href="#palettes">Выбрать стиль ↗</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> ПРОСТРАНСТВО ДЛЯ КОМАНДНОЙ РАБОТЫ</div>
+          <h1>Создавайте код.<br>Двигайтесь <span class="gradient-text">вместе.</span></h1>
+          <p class="lead">CodeFlow объединяет команду разработчиков в одном пространстве. Обсуждайте идеи, делитесь кодом и превращайте сложные задачи в готовые проекты — вместе и без лишнего хаоса.</p>
+          <div class="actions">
+            <a class="button primary" href="#features">Начать бесплатно <span>→</span></a>
+            <a class="button secondary" href="#palettes">Выбрать цветовую схему</a>
+          </div>
+          <p class="note">Без сложной настройки · Для команд любого размера</p>
+        </div>
+
+        <div class="visual" aria-label="Иллюстрация рабочего пространства разработчиков">
+          <div class="visual-glow"></div>
+          <div class="workspace">
+            <div class="window-top">
+              <div class="lights"><i></i><i></i><i></i></div>
+              <span>codeflow / team-project</span><span>•••</span>
+            </div>
+            <div class="workspace-body">
+              <aside class="sidebar">
+                <div class="side-label">Workspace</div>
+                <div class="side-item active">⌘ Проект</div>
+                <div class="side-item">▤ Задачи</div>
+                <div class="side-item">⌁ Ветки</div>
+                <div class="side-item">◉ Команда</div>
+                <div class="side-label files-label">Файлы</div>
+                <div class="side-item">◇ app.js</div>
+                <div class="side-item">◇ style.css</div>
+                <div class="side-item">◇ index.html</div>
+              </aside>
+              <div class="editor">
+                <div class="editor-head"><span>⌁ app.js</span><span class="online">● 3 онлайн</span></div>
+                <div class="code">
+                  <div><span class="ln">1</span><span class="syntax-purple">const</span> project = {</div>
+                  <div><span class="ln">2</span>&nbsp;&nbsp;name: <span class="syntax-green">'New project'</span>,</div>
+                  <div><span class="ln">3</span>&nbsp;&nbsp;team: [<span class="syntax-orange">'you'</span>, <span class="syntax-orange">'devs'</span>],</div>
+                  <div><span class="ln">4</span>&nbsp;&nbsp;status: <span class="syntax-green">'building'</span>,</div>
+                  <div><span class="ln">5</span>};</div>
+                  <div><span class="ln">6</span></div>
+                  <div><span class="ln">7</span><span class="syntax-purple">function</span> <span class="syntax-blue">createTogether</span>() {</div>
+                  <div><span class="ln">8</span>&nbsp;&nbsp;<span class="syntax-purple">return</span> ideas.<span class="syntax-blue">build</span>();</div>
+                  <div><span class="ln">9</span>}</div>
+                </div>
+                <div class="collab">
+                  <div class="avatars"><span>A</span><span>M</span><span>D</span></div>
+                  <div><strong>Команда на связи</strong><small>Изменения синхронизированы</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cursor-tag">Alex · редактирует</div>
+          <div class="task-card"><span class="check">✓</span><span><strong>Задача выполнена</strong><small>Обновлено только что</small></span></div>
+        </div>
+      </section>
+
+      <section class="features container" id="features">
+        <div class="section-heading">
+          <p class="section-kicker">РАБОТАЙТЕ ЭФФЕКТИВНЕЕ</p>
+          <h2>Всё для сильной команды</h2>
+          <p>Инструменты, которые помогают сосредоточиться на главном — создании качественного продукта.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><div class="feature-icon">⌘</div><h3>Общий рабочий процесс</h3><p>Собирайте файлы, задачи и обсуждения проекта в одном понятном пространстве.</p></article>
+          <article class="feature"><div class="feature-icon">↗</div><h3>Синхронная работа</h3><p>Делитесь идеями, быстро согласовывайте изменения и следите за работой команды.</p></article>
+          <article class="feature"><div class="feature-icon">◈</div><h3>Понятный прогресс</h3><p>Отмечайте готовые задачи, распределяйте ответственность и двигайтесь к результату вместе.</p></article>
+        </div>
+      </section>
+
+      <section class="palette-section container" id="palettes">
+        <div class="section-heading">
+          <p class="section-kicker">ЗАДАНИЕ 2 · ЦВЕТОВОЙ ДИЗАЙН</p>
+          <h2>Выбери палитру CodeFlow</h2>
+          <p>Шесть цветовых схем. Нажми на карточку, чтобы сразу посмотреть, как выбранные цвета меняют сайт.</p>
+        </div>
+
+        <div class="palette-grid">
+          <button class="palette-card selected" type="button" data-palette="complementary" aria-pressed="true">
+            <span class="palette-title">1. Комплементарная</span>
+            <span class="swatches"><i style="--swatch:#101827"></i><i style="--swatch:#F4F7FB"></i><i style="--swatch:#7C3AED"></i><i style="--swatch:#F59E0B"></i><i style="--swatch:#22D3EE"></i></span>
+            <span class="palette-description">Фиолетовый и золотисто-оранжевый акценты на холодном фоне.</span>
+            <span class="hex-list">#101827 · #F4F7FB · #7C3AED · #F59E0B · #22D3EE</span>
+          </button>
+
+          <button class="palette-card" type="button" data-palette="contrast-triad" aria-pressed="false">
+            <span class="palette-title">2. Контрастная триада</span>
+            <span class="swatches"><i style="--swatch:#111827"></i><i style="--swatch:#F8FAFC"></i><i style="--swatch:#EF4444"></i><i style="--swatch:#22C55E"></i><i style="--swatch:#3B82F6"></i></span>
+            <span class="palette-description">Красный, зелёный и синий — яркие и заметные акценты.</span>
+            <span class="hex-list">#111827 · #F8FAFC · #EF4444 · #22C55E · #3B82F6</span>
+          </button>
+
+          <button class="palette-card" type="button" data-palette="classic-triad" aria-pressed="false">
+            <span class="palette-title">3. Классическая триада</span>
+            <span class="swatches"><i style="--swatch:#17152B"></i><i style="--swatch:#FFF9F0"></i><i style="--swatch:#8B5CF6"></i><i style="--swatch:#F97316"></i><i style="--swatch:#14B8A6"></i></span>
+            <span class="palette-description">Фиолетовый, оранжевый и бирюзовый — энергичный стиль.</span>
+            <span class="hex-list">#17152B · #FFF9F0 · #8B5CF6 · #F97316 · #14B8A6</span>
+          </button>
+
+          <button class="palette-card" type="button" data-palette="analogous" aria-pressed="false">
+            <span class="palette-title">4. Аналоговая</span>
+            <span class="swatches"><i style="--swatch:#0B1F33"></i><i style="--swatch:#F0F9FF"></i><i style="--swatch:#0284C7"></i><i style="--swatch:#06B6D4"></i><i style="--swatch:#6366F1"></i></span>
+            <span class="palette-description">Родственные синие и голубые оттенки создают спокойствие.</span>
+            <span class="hex-list">#0B1F33 · #F0F9FF · #0284C7 · #06B6D4 · #6366F1</span>
+          </button>
+
+          <button class="palette-card" type="button" data-palette="tetrad" aria-pressed="false">
+            <span class="palette-title">5. Тетрада</span>
+            <span class="swatches"><i style="--swatch:#18181B"></i><i style="--swatch:#FAFAF9"></i><i style="--swatch:#8B5CF6"></i><i style="--swatch:#F43F5E"></i><i style="--swatch:#84CC16"></i></span>
+            <span class="palette-description">Четыре выразительных цвета для динамичного интерфейса.</span>
+            <span class="hex-list">#18181B · #FAFAF9 · #8B5CF6 · #F43F5E · #84CC16</span>
+          </button>
+
+          <button class="palette-card" type="button" data-palette="rectangle" aria-pressed="false">
+            <span class="palette-title">6. Прямоугольная схема</span>
+            <span class="swatches"><i style="--swatch:#172033"></i><i style="--swatch:#F8FAFC"></i><i style="--swatch:#2563EB"></i><i style="--swatch:#F97316"></i><i style="--swatch:#DB2777"></i></span>
+            <span class="palette-description">Синий, оранжевый, розовый и бирюзовый для многослойного дизайна.</span>
+            <span class="hex-list">#172033 · #F8FAFC · #2563EB · #F97316 · #DB2777</span>
+          </button>
+        </div>
+        <p class="active-palette" id="activePalette" aria-live="polite">Выбрана палитра: Комплементарная</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#home"><span class="logo">&lt;/&gt;</span><span>Code<span class="accent-text">Flow</span></span></a>
+        <span>Меньше хаоса — больше кода. © 2026 CodeFlow</span>
+        <a class="footer-link" href="#home">Наверх ↑</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const palettes = {
+      complementary: {
+        name: "Комплементарная",
+        bg: "#101827", surface: "#182338", text: "#F4F7FB", muted: "#B8C4D8",
+        accent: "#7C3AED", accent2: "#F59E0B", third: "#22D3EE", line: "rgba(255,255,255,.14)"
+      },
+      "contrast-triad": {
+        name: "Контрастная триада",
+        bg: "#111827", surface: "#1F2937", text: "#F8FAFC", muted: "#CBD5E1",
+        accent: "#3B82F6", accent2: "#EF4444", third: "#22C55E", line: "rgba(255,255,255,.15)"
+      },
+      "classic-triad": {
+        name: "Классическая триада",
+        bg: "#17152B", surface: "#24213D", text: "#FFF9F0", muted: "#D0C9E2",
+        accent: "#8B5CF6", accent2: "#F97316", third: "#14B8A6", line: "rgba(255,255,255,.15)"
+      },
+      analogous: {
+        name: "Аналоговая",
+        bg: "#0B1F33", surface: "#12304A", text: "#F0F9FF", muted: "#B6D4E7",
+        accent: "#0284C7", accent2: "#06B6D4", third: "#6366F1", line: "rgba(255,255,255,.15)"
+      },
+      tetrad: {
+        name: "Тетрада",
+        bg: "#18181B", surface: "#27272A", text: "#FAFAF9", muted: "#D4D4D8",
+        accent: "#8B5CF6", accent2: "#F43F5E", third: "#84CC16", line: "rgba(255,255,255,.15)"
+      },
+      rectangle: {
+        name: "Прямоугольная схема",
+        bg: "#172033", surface: "#222F46", text: "#F8FAFC", muted: "#C0CDDF",
+        accent: "#2563EB", accent2: "#F97316", third: "#DB2777", line: "rgba(255,255,255,.15)"
+      }
+    };
+
+    const root = document.documentElement;
+    const cards = document.querySelectorAll(".palette-card");
+    const activeLabel = document.getElementById("activePalette");
+
+    function applyPalette(key) {
+      const palette = palettes[key];
+      if (!palette) return;
+      root.style.setProperty("--bg", palette.bg);
+      root.style.setProperty("--surface", palette.surface);
+      root.style.setProperty("--text", palette.text);
+      root.style.setProperty("--muted", palette.muted);
+      root.style.setProperty("--accent", palette.accent);
+      root.style.setProperty("--accent-2", palette.accent2);
+      root.style.setProperty("--accent-3", palette.third);
+      root.style.setProperty("--line", palette.line);
+      root.style.setProperty("--gradient-start", palette.accent);
+      root.style.setProperty("--gradient-end", palette.third);
+
+      cards.forEach(card => {
+        const selected = card.dataset.palette === key;
+        card.classList.toggle("selected", selected);
+        card.setAttribute("aria-pressed", selected ? "true" : "false");
+      });
+      activeLabel.textContent = "Выбрана палитра: " + palette.name;
+    }
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => applyPalette(card.dataset.palette));
+    });
+  </script>
+</body>
+</html>
